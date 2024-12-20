@@ -1,0 +1,38 @@
+{
+  "name": "@megaorm/errors",
+  "version": "1.0.0",
+  "description": "This package provides custom error classes for handling transaction, connection, and queue management issues in MegaORM.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": "Mohamed",
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/megaorm/megaorm-errors.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.2",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "test": "npx jest --coverage",
+    "build": "tsc"
+  },
+  "keywords": [
+    "megaorm",
+    "errors",
+    "database",
+    "transaction",
+    "connection",
+    "queue",
+    "orm",
+    "custom-errors",
+    "driver-errors",
+    "connection-pool",
+    "transaction-management",
+    "query-errors",
+    "shutdown-errors"
+  ]
+}
